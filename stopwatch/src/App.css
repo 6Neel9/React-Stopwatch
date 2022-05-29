@@ -1,0 +1,47 @@
+body{
+  background-color: black;
+  padding: 200px;
+}
+.Timers {
+  width: 180px;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(270deg,#051817, #0e3839);
+  height: 180px;
+  width: 350px;
+  color: #06f1f6;
+  text-shadow: 1px 1px 7px;
+  border-radius: 15px;
+  border: 2px solid silver;
+  box-shadow: 0 0 5px 25px;
+}
+
+#display {
+  margin-bottom: 20px;
+
+}
+#display span {
+  font-size: 36px;
+}
+#buttons button:nth-child(2) {
+  margin-left: 8px;
+}
+
+button {
+  font-size: 16px;
+  background-color: rgb(217, 60, 35);
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(173, 47, 28);
+}
+button:active {
+  background-color: rgb(130, 35, 21);
+}
+button:focus {
+  outline: 0;
+}
